@@ -6,6 +6,14 @@
  *
  */
 
-function bcd_localities_install() {
+function bcd_temple_install() {
   variable_set('gmap_node_markers_temple', 'temple-small');
+  variable_set('content_extra_weights_temple', array(
+    'title' => '-5',
+    'body_field' => '1',
+    'revision_information' => '3',
+    'menu' => '2',
+    'path' => '4',
+    'locations' => '-3',
+  ));
 }
