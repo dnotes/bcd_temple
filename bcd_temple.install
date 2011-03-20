@@ -1,0 +1,11 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ *
+ */
+
+function bcd_localities_install() {
+  variable_set('gmap_node_markers_temple', 'temple-small');
+}
