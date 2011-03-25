@@ -1,0 +1,3 @@
+<?php
+
+include_once('bcd_temple.features.inc');
